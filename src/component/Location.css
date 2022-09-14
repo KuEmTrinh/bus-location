@@ -1,0 +1,75 @@
+.locationList{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    align-items: center;
+    height: auto;
+}
+.locationItem p{
+    width: 2rem;
+    padding: 5px 10px;
+    margin-right: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+}
+.locationItemActive p{
+    background-color: #c96060;
+    color: #fff;
+}
+/* Slideshow */
+
+.slideshow {
+    margin: 0 auto;
+    /* overflow: hidden; */
+    width: 100%;
+  }
+  
+  .slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+  }
+  
+  .slide {
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+    border-radius: 40px;
+  }
+  
+  /* Buttons */
+  
+  .slideshowDots {
+    text-align: center;
+  }
+  
+  .slideshowDot {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+  
+    cursor: pointer;
+    margin: 7px 4px 0px;
+  
+    background-color: #c4c4c4;
+  }
+  
+  .slideshowDot.active {
+    background-color: #6a0dad;
+  }
+  
+  .stopName{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .stopInfo{
+    display: flex;
+    width: 100%;
+  }
+
+.stopTimes{
+    width: 100%;
+    margin: 0 5rem;
+}
